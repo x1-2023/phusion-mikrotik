@@ -1,2 +1,7 @@
-# phusion-mikrotik
-phusion-base image (ubuntu) container on mikrotik x86
+```
+apt install -y sudo
+```
+```
+apt update && apt install -y curl wget ufw openssh-server git vim net-tools htop build-essential
+```
+
