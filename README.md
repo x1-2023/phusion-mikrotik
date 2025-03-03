@@ -65,7 +65,7 @@ Once done create a user for your virtual machine, because you can not ssh with t
 ```
 ssh -p 2222 user@mikrotik_ip_address
 ```
-
+[Create User on Ubuntu](https://github.com/x1-2023/phusion-mikrotik/blob/main/user.md)
 ## Notes
 
 - Ensure that the container service is enabled on the MikroTik
@@ -75,6 +75,6 @@ ssh -p 2222 user@mikrotik_ip_address
 
 
 ## References
-
+- [Create User on Ubuntu](https://github.com/x1-2023/phusion-mikrotik/blob/main/user.md)
 - [MikroTik Container Documentation](https://help.mikrotik.com/docs/display/ROS/Container)
 - [MikroTik Firewall and NAT](https://help.mikrotik.com/docs/display/ROS/Firewall+and+QoS)
