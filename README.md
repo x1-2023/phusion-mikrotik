@@ -70,6 +70,9 @@ service ssh start
 ssh -p 2222 user@mikrotik_ip_address
 ```
 [Create User on Ubuntu](https://github.com/x1-2023/phusion-mikrotik/blob/main/user.md)
+![image](https://github.com/user-attachments/assets/4d4f5e6b-a765-45a9-a91c-6d95c50bb201)
+
+
 ## Notes
 
 - Ensure that the container service is enabled on the MikroTik
