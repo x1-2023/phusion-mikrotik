@@ -44,7 +44,7 @@ Initialize a container using the `phusion/baseimage:jammy-1.0.0` image, configur
 /container add remote-image=phusion/baseimage:jammy-1.0.0 interface=veth1 start-on-boot=yes
 ```
 
-## 6. Start and setup container
+## B. Start and setup on container
 
 After completing the above steps, you can start container and connect to the container via SSH through port 2222 of the MikroTik.
 You need to access that container directly to install the necessary components.
