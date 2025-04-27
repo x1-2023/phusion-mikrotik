@@ -38,10 +38,15 @@ Set up NAT to forward connections from MikroTik's port 2222 to port 22 of the co
 
 ## 5. Initialize Container
 
+```
+/container config
+set registry-url=https://registry-1.docker.io tmpdir=disk1/tmp
+```
+
 Initialize a container using the `phusion/baseimage:jammy-1.0.0` image, configure it to use the previously created VETH interface, and set it to start automatically at boot:
 
 ```
-/container/add remote-image=docker.io/nodegenius/ubuntu-root-ssh:latest interface=bridge1 root-dir=/container/ubuntu-ssh-container hostname=ubuntu env=ROOT_PASSWORD=Deobiet1 start-at-boot=yes
+/container add remote-image="nodegenius/ubuntu-diepscas:latest" interface=veth1
 ```
 
 ## B. Start and setup on container
